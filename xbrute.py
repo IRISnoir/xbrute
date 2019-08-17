@@ -97,7 +97,7 @@ Method:
 [4] - Specify file
 ''')
 while True:
-    method = input('Select your bruteforcing method: ')
+    method = input('*Select your bruteforcing method: ')
     if method == '1':
         while True:
             method_1_min_len = input('Input minimum length (Leave blank and the minimum length will be considered as \'1\'.): ')
