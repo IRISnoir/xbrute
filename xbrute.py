@@ -113,7 +113,7 @@ while True:
                 else:
                     break
         while True:
-            method_1_max_len = input('Input maximum length: ')
+            method_1_max_len = input('*Input maximum length: ')
             if method_1_max_len == '':
                 print('You must supply a maximum length.')
             else:
@@ -146,7 +146,7 @@ while True:
                 else:
                     break
         while True:
-            method_3_max_len = input('Input maximum length: ')
+            method_3_max_len = input('*Input maximum length: ')
             if method_3_max_len == '':
                 print('You must supply a maximum length.')
             else:
@@ -161,7 +161,7 @@ while True:
             os.system('hydra ' + login_spec + ' ' + login + ' -p ' + str(password) + ' -e nsr -u -v -V ' + port + success_file + protocol + '://' + server + extra)
     if method == '4':
         while True:
-            password = input('Specify your wordlist: ')
+            password = input('*Specify your wordlist: ')
             if password == '':
                 print('You have to input a wordlist.')
             else:
