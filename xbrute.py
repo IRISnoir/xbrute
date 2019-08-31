@@ -30,6 +30,7 @@ while True:
             print('Data specified is not a filename.')
             time.sleep(3)
             login_spec = '-l'
+            break
         else:
             print('Data specified is a filename.')
             time.sleep(3)
